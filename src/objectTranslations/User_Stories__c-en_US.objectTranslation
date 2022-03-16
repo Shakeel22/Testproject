@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>User Stories</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>User Stories</value>
+    </caseValues>
+    <fields>
+        <label><!-- User Story --></label>
+        <name>US_00001__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Stories --></label>
+        <name>User_Stories__c</name>
+        <relationshipLabel><!-- User Stories --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

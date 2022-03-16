@@ -1,0 +1,6 @@
+Hi {!Lead.OwnerFullName},
+
+New Lead Has Been Created...
+
+Thanks,
+{!Lead.Link}

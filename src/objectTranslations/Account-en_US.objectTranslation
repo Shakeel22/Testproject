@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>(Account) Customer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>(Accounts)Customers</value>
+    </caseValues>
+    <fields>
+        <label><!-- AUN --></label>
+        <name>AUN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active Customer --></label>
+        <name>Active_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singapore</masterLabel>
+            <translation><!-- Singapore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UAE</masterLabel>
+            <translation><!-- UAE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK</masterLabel>
+            <translation><!-- UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>CustomerPriority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer Email --></label>
+        <name>Customer_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer ID --></label>
+        <name>Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Expiration Date --></label>
+        <name>SLAExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Serial Number --></label>
+        <name>SLASerialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA --></label>
+        <name>SLA__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+        <picklistValues>
+            <masterLabel>Andhra Pradesh</masterLabel>
+            <translation><!-- Andhra Pradesh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cape Town</masterLabel>
+            <translation><!-- Cape Town --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Karnataka</masterLabel>
+            <translation><!-- Karnataka --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>London</masterLabel>
+            <translation><!-- London --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Madhya pradesh</masterLabel>
+            <translation><!-- Madhya pradesh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation><!-- Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scotland</masterLabel>
+            <translation><!-- Scotland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telangana</masterLabel>
+            <translation><!-- Telangana --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation><!-- Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect</masterLabel>
+            <translation><!-- Prospect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restricted</masterLabel>
+            <translation><!-- Restricted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Upsell Opportunity --></label>
+        <name>UpsellOpportunity__c</name>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation><!-- Maybe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Account (Marketing) Layout</layout>
+        <sections>
+            <label><!-- Service Section --></label>
+            <section>Service Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Dealers</layout>
+        <sections>
+            <label><!-- Dealers(B2B) Section --></label>
+            <section>Dealers(B2B) Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Dealers Layout</layout>
+        <sections>
+            <label><!-- Dealers (B2B) Section --></label>
+            <section>Dealers (B2B) Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Prospect Layout</layout>
+        <sections>
+            <label><!-- Prospects Section --></label>
+            <section>Prospects Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Prospects Layout</layout>
+        <sections>
+            <label><!-- Prospects/individual Section --></label>
+            <section>Prospects/individual Section</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Conbutton --></label>
+        <name>Conbutton</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Multiscreenbtn --></label>
+        <name>Multiscreenbtn</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Oppbutton --></label>
+        <name>Oppbutton</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Quickcontact --></label>
+        <name>QuickContact</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Dealer record --></label>
+        <name>Dealerrecords</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Dealers --></label>
+        <name>Dealers</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Individuals/Prospects --></label>
+        <name>Individuals</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Account Number Must Not Be Blank And Not Exceed More Than 10 --></errorMessage>
+        <name>Account_Number_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You Are Not Authorized To Change Any Value --></errorMessage>
+        <name>Account_Rating_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Revenue must not exceeds 50k --></errorMessage>
+        <name>Account_Revenue_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Phone Number Is Mandatory Custom Validation Rule --></errorMessage>
+        <name>Account_phone_validation_rule</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Billing --></label>
+        <name>Billing</name>
+    </webLinks>
+</CustomObjectTranslation>

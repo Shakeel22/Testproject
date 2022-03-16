@@ -1,0 +1,8 @@
+Hi {!Opportunity.OwnerFullName}
+
+
+Your order will be closed on {!Opportunity.CloseDate}
+
+For more details visit us {!Opportunity.Link}
+
+Thanks

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>shakeel22.c2n@gmail.com</email>
+    <name>permissions</name>
+    <queueMembers>
+        <roles>
+            <role>VPMarketing</role>
+        </roles>
+        <users>
+            <user>chatty.00d5j000000x6vpeas.5ugc53vpruxj@chatter.salesforce.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Broker__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Bug__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Student__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Transaction_Line_Item__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Transaction__c</sobjectType>
+    </queueSobject>
+</Queue>

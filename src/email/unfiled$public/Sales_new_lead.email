@@ -1,0 +1,18 @@
+Hi {!Lead.OwnerFullName},
+
+A New Sales Lead Generated Today 
+
+Quick Details:
+
+Lead Name: {!Lead.Name}
+
+Phone Number: {!Lead.Phone}
+
+Email : {!Lead.Email}
+
+Company :  {!Lead.Company}
+
+For More Information Click On The Link Below
+
+
+{!Lead.Link}
