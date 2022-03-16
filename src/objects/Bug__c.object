@@ -162,6 +162,20 @@
         <type>Email</type>
         <unique>false</unique>
     </fields>
+
+<fields>
+        <fullName>Bug_History__c</fullName>
+        <externalId>false</externalId>
+        <label>Bug History</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+
+
+
+
     <label>Bug</label>
     <listViews>
         <fullName>All</fullName>
